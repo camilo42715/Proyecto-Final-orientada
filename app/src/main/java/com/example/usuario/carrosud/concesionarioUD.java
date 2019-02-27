@@ -1,7 +1,10 @@
 package com.example.usuario.carrosud;
 
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
 public class concesionarioUD extends AppCompatActivity {
 
@@ -9,5 +12,68 @@ public class concesionarioUD extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_concesionario_ud);
+        FragmentManager miManejador=getSupportFragmentManager();
+        FragmentTransaction mitransacion=miManejador.beginTransaction();
+        TIPO mifragmento=new TIPO();
+        mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.commit();
     }
+
+    public void sedan (View v){
+        FragmentManager miManejador=getSupportFragmentManager();
+        FragmentTransaction mitransacion=miManejador.beginTransaction();
+      fragmentoMaster mifragmento=new fragmentoMaster();
+        mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.commit();
+    }
+    public void picup (View v){
+        FragmentManager miManejador=getSupportFragmentManager();
+        FragmentTransaction mitransacion=miManejador.beginTransaction();
+        fragmentoTipop mifragmento=new fragmentoTipop();
+        mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.commit();
+    }
+    public void americano (View v){
+        FragmentManager miManejador=getSupportFragmentManager();
+        FragmentTransaction mitransacion=miManejador.beginTransaction();
+        fragmentoAmericano mifragmento=new fragmentoAmericano();
+        mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.commit();
+    }
+    public void asiatico (View v){
+        FragmentManager miManejador=getSupportFragmentManager();
+        FragmentTransaction mitransacion=miManejador.beginTransaction();
+        fragmentoAsiatico mifragmento=new  fragmentoAsiatico();
+        mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.commit();
+    }
+    public void europeo (View v){
+        FragmentManager miManejador=getSupportFragmentManager();
+        FragmentTransaction mitransacion=miManejador.beginTransaction();
+        fragmentoEuropeo mifragmento=new fragmentoEuropeo();
+        mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.commit();
+    }
+    public void europeop (View v){
+        FragmentManager miManejador=getSupportFragmentManager();
+        FragmentTransaction mitransacion=miManejador.beginTransaction();
+        fragmentoEuropeop mifragmento=new fragmentoEuropeop();
+        mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.commit();
+    }
+    public void asiaticop (View v){
+        FragmentManager miManejador=getSupportFragmentManager();
+        FragmentTransaction mitransacion=miManejador.beginTransaction();
+        fragmentoAsiaticop mifragmento=new fragmentoAsiaticop();
+        mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.commit();
+    }
+    public void americanop (View v){
+        FragmentManager miManejador=getSupportFragmentManager();
+        FragmentTransaction mitransacion=miManejador.beginTransaction();
+        fragmentoAmericanop mifragmento=new fragmentoAmericanop();
+        mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.commit();
+    }
+
 }
