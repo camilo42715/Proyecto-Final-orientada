@@ -17,27 +17,27 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="134dp"
-            android:layout_marginTop="104dp"
+            android:layout_marginTop="15dp"
             android:layout_marginEnd="162dp"
             android:text="suzuki"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
         <Button
             android:id="@+id/botonNissan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="134dp"
-            android:layout_marginTop="88dp"
+            android:layout_marginTop="14dp"
             android:layout_marginEnd="162dp"
             android:layout_marginBottom="83dp"
             android:text="nissan"
             app:layout_constraintBottom_toTopOf="@+id/botonToyota"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/botonSuzuki" />
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
         <Button
             android:id="@+id/botonToyota"
@@ -50,5 +50,31 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="152dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="116dp"
+            android:layout_marginTop="37dp"
+            android:layout_marginEnd="116dp"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/susuki"
+            app:layout_constraintBottom_toTopOf="@+id/botonSuzuki"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="132dp"
+            android:layout_height="62dp"
+            android:layout_marginStart="116dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="136dp"
+            android:src="@drawable/toyota"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/botonSuzuki" />
     </android.support.constraint.ConstraintLayout>
 </FrameLayout>
