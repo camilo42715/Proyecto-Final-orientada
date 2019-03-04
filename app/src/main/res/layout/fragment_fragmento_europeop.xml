@@ -14,31 +14,28 @@
 
         <Button
             android:id="@+id/botonFiatp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="93dp"
+            android:layout_height="40dp"
             android:layout_marginStart="136dp"
-            android:layout_marginTop="91dp"
             android:layout_marginEnd="160dp"
-            android:layout_marginBottom="72dp"
             android:text="fiat"
-            app:layout_constraintBottom_toTopOf="@+id/botonMercedezp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView11"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/botonVolkswagenp" />
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <Button
             android:id="@+id/botonVolkswagenp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="112dp"
+            android:layout_height="35dp"
             android:layout_marginStart="136dp"
-            android:layout_marginTop="92dp"
             android:layout_marginEnd="131dp"
+            android:layout_marginBottom="11dp"
             android:text="volkswagen"
+            app:layout_constraintBottom_toTopOf="@+id/imageView9"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintStart_toStartOf="parent" />
 
         <Button
             android:id="@+id/botonMercedezp"
@@ -46,11 +43,43 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="136dp"
             android:layout_marginEnd="153dp"
-            android:layout_marginBottom="112dp"
+            android:layout_marginBottom="16dp"
             android:text="mercedez"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="260dp"
+            android:layout_height="107dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/volkswagen"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="204dp"
+            android:layout_height="115dp"
+            android:src="@drawable/fiat"
+            app:layout_constraintBottom_toTopOf="@+id/botonFiatp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="224dp"
+            android:layout_height="108dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="90dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/mercedez"
+            app:layout_constraintBottom_toTopOf="@+id/botonMercedezp"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
     </android.support.constraint.ConstraintLayout>
 </FrameLayout>

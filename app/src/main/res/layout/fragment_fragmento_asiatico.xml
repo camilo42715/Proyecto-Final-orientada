@@ -17,7 +17,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="134dp"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="20dp"
             android:layout_marginEnd="162dp"
             android:text="suzuki"
             app:layout_constraintEnd_toEndOf="parent"
@@ -30,14 +30,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="134dp"
-            android:layout_marginTop="14dp"
             android:layout_marginEnd="162dp"
-            android:layout_marginBottom="83dp"
+            android:layout_marginBottom="17dp"
             android:text="nissan"
-            app:layout_constraintBottom_toTopOf="@+id/botonToyota"
+            app:layout_constraintBottom_toTopOf="@+id/imageView2"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <Button
             android:id="@+id/botonToyota"
@@ -45,16 +44,17 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="134dp"
             android:layout_marginEnd="162dp"
-            android:layout_marginBottom="92dp"
+            android:layout_marginBottom="16dp"
             android:text="toyota"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent" />
 
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="152dp"
-            android:layout_height="52dp"
+            android:layout_height="67dp"
             android:layout_marginStart="116dp"
             android:layout_marginTop="37dp"
             android:layout_marginEnd="116dp"
@@ -67,14 +67,29 @@
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="132dp"
-            android:layout_height="62dp"
+            android:layout_width="140dp"
+            android:layout_height="76dp"
             android:layout_marginStart="116dp"
-            android:layout_marginTop="12dp"
             android:layout_marginEnd="136dp"
+            android:layout_marginBottom="14dp"
             android:src="@drawable/toyota"
+            app:layout_constraintBottom_toTopOf="@+id/botonToyota"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="217dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/nissan"
+            app:layout_constraintBottom_toTopOf="@+id/botonNissan"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/botonSuzuki" />
+
     </android.support.constraint.ConstraintLayout>
 </FrameLayout>
