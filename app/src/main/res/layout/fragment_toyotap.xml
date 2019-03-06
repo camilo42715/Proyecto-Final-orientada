@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".toyotap">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView40"
+            android:layout_width="312dp"
+            android:layout_height="93dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/prado"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView41"
+            android:layout_width="247dp"
+            android:layout_height="95dp"
+            android:layout_marginTop="9dp"
+            android:src="@drawable/landcruser"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button19" />
+
+        <ImageView
+            android:id="@+id/imageView42"
+            android:layout_width="259dp"
+            android:layout_height="107dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/hilux"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button18" />
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:text="prado"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView40" />
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="89dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="11dp"
+            android:text="hillux "
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView42" />
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="157dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="8dp"
+            android:text="land crusier "
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView41" />
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

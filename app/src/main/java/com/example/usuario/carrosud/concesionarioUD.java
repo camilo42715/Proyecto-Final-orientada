@@ -24,6 +24,7 @@ public class concesionarioUD extends AppCompatActivity {
         FragmentTransaction mitransacion=miManejador.beginTransaction();
       fragmentoMaster mifragmento=new fragmentoMaster();
         mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.addToBackStack("");
         mitransacion.commit();
     }
     public void picup (View v){
@@ -31,6 +32,7 @@ public class concesionarioUD extends AppCompatActivity {
         FragmentTransaction mitransacion=miManejador.beginTransaction();
         fragmentoTipop mifragmento=new fragmentoTipop();
         mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.addToBackStack("");
         mitransacion.commit();
     }
     public void americano (View v){
@@ -38,6 +40,7 @@ public class concesionarioUD extends AppCompatActivity {
         FragmentTransaction mitransacion=miManejador.beginTransaction();
         fragmentoAmericano mifragmento=new fragmentoAmericano();
         mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.addToBackStack("");
         mitransacion.commit();
     }
     public void asiatico (View v){
@@ -45,6 +48,7 @@ public class concesionarioUD extends AppCompatActivity {
         FragmentTransaction mitransacion=miManejador.beginTransaction();
         fragmentoAsiatico mifragmento=new  fragmentoAsiatico();
         mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.addToBackStack("");
         mitransacion.commit();
     }
     public void europeo (View v){
@@ -52,6 +56,7 @@ public class concesionarioUD extends AppCompatActivity {
         FragmentTransaction mitransacion=miManejador.beginTransaction();
         fragmentoEuropeo mifragmento=new fragmentoEuropeo();
         mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.addToBackStack("");
         mitransacion.commit();
     }
     public void europeop (View v){
@@ -59,6 +64,7 @@ public class concesionarioUD extends AppCompatActivity {
         FragmentTransaction mitransacion=miManejador.beginTransaction();
         fragmentoEuropeop mifragmento=new fragmentoEuropeop();
         mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.addToBackStack("");
         mitransacion.commit();
     }
     public void asiaticop (View v){
@@ -66,6 +72,7 @@ public class concesionarioUD extends AppCompatActivity {
         FragmentTransaction mitransacion=miManejador.beginTransaction();
         fragmentoAsiaticop mifragmento=new fragmentoAsiaticop();
         mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.addToBackStack("");
         mitransacion.commit();
     }
     public void americanop (View v){
@@ -73,6 +80,7 @@ public class concesionarioUD extends AppCompatActivity {
         FragmentTransaction mitransacion=miManejador.beginTransaction();
         fragmentoAmericanop mifragmento=new fragmentoAmericanop();
         mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.addToBackStack("");
         mitransacion.commit();
     }
     public void forp (View v){
@@ -80,6 +88,7 @@ public class concesionarioUD extends AppCompatActivity {
         FragmentTransaction mitransacion=miManejador.beginTransaction();
         fordP mifragmento=new fordP();
         mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.addToBackStack("");
         mitransacion.commit();
     }
     public void chevrolep (View v){
@@ -87,6 +96,40 @@ public class concesionarioUD extends AppCompatActivity {
         FragmentTransaction mitransacion=miManejador.beginTransaction();
         chevroletp mifragmento=new chevroletp();
         mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.addToBackStack("");
+        mitransacion.commit();
+    }
+    public void dodgep (View v){
+        FragmentManager miManejador=getSupportFragmentManager();
+        FragmentTransaction mitransacion=miManejador.beginTransaction();
+        dodge mifragmento=new dodge();
+        mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.addToBackStack("");
+        mitransacion.commit();
+    }
+    public void toyotap (View v){
+        FragmentManager miManejador=getSupportFragmentManager();
+        FragmentTransaction mitransacion=miManejador.beginTransaction();
+       toyotap mifragmento=new toyotap();
+        mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.addToBackStack("");
+        mitransacion.commit();
+    }
+    public void nissanp (View v){
+        FragmentManager miManejador=getSupportFragmentManager();
+        FragmentTransaction mitransacion=miManejador.beginTransaction();
+        nissanp mifragmento=new nissanp();
+        mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.addToBackStack("");
+        mitransacion.commit();
+    }
+
+    public void suzukyp (View v){
+        FragmentManager miManejador=getSupportFragmentManager();
+        FragmentTransaction mitransacion=miManejador.beginTransaction();
+        Susukyp mifragmento=new Susukyp();
+        mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.addToBackStack("");
         mitransacion.commit();
     }
 
