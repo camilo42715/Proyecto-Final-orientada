@@ -173,5 +173,29 @@ public class concesionarioUD extends AppCompatActivity {
         mitransacion.addToBackStack("");
         mitransacion.commit();
     }
+    public void toyotase (View v){
+        FragmentManager miManejador=getSupportFragmentManager();
+        FragmentTransaction mitransacion=miManejador.beginTransaction();
+        toyotasedan mifragmento=new toyotasedan();
+        mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.addToBackStack("");
+        mitransacion.commit();
+    }
+    public void nissanse (View v){
+        FragmentManager miManejador=getSupportFragmentManager();
+        FragmentTransaction mitransacion=miManejador.beginTransaction();
+       nissans  mifragmento=new nissans();
+        mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.addToBackStack("");
+        mitransacion.commit();
+    }
+    public void suzukyse (View v){
+        FragmentManager miManejador=getSupportFragmentManager();
+        FragmentTransaction mitransacion=miManejador.beginTransaction();
+        susukis mifragmento=new susukis();
+        mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.addToBackStack("");
+        mitransacion.commit();
+    }
 
 }
