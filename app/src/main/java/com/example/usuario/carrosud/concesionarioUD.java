@@ -75,5 +75,19 @@ public class concesionarioUD extends AppCompatActivity {
         mitransacion.replace(R.id.contenedorMaster, mifragmento);
         mitransacion.commit();
     }
+    public void forp (View v){
+        FragmentManager miManejador=getSupportFragmentManager();
+        FragmentTransaction mitransacion=miManejador.beginTransaction();
+        fordP mifragmento=new fordP();
+        mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.commit();
+    }
+    public void chevrolep (View v){
+        FragmentManager miManejador=getSupportFragmentManager();
+        FragmentTransaction mitransacion=miManejador.beginTransaction();
+        chevroletp mifragmento=new chevroletp();
+        mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.commit();
+    }
 
 }
