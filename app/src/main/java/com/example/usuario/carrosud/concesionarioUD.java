@@ -5,7 +5,6 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-
 public class concesionarioUD extends AppCompatActivity {
 
     @Override
@@ -43,14 +42,7 @@ public class concesionarioUD extends AppCompatActivity {
         mitransacion.addToBackStack("");
         mitransacion.commit();
     }
-    public void asiatico (View v){
-        FragmentManager miManejador=getSupportFragmentManager();
-        FragmentTransaction mitransacion=miManejador.beginTransaction();
-        fragmentoAsiatico mifragmento=new  fragmentoAsiatico();
-        mitransacion.replace(R.id.contenedorMaster, mifragmento);
-        mitransacion.addToBackStack("");
-        mitransacion.commit();
-    }
+
     public void europeo (View v){
         FragmentManager miManejador=getSupportFragmentManager();
         FragmentTransaction mitransacion=miManejador.beginTransaction();
@@ -193,6 +185,14 @@ public class concesionarioUD extends AppCompatActivity {
         FragmentManager miManejador=getSupportFragmentManager();
         FragmentTransaction mitransacion=miManejador.beginTransaction();
         susukis mifragmento=new susukis();
+        mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.addToBackStack("");
+        mitransacion.commit();
+    }
+    public void asiaticosedan (View v){
+        FragmentManager miManejador=getSupportFragmentManager();
+        FragmentTransaction mitransacion=miManejador.beginTransaction();
+        asiaticosedan mifragmento=new asiaticosedan();
         mitransacion.replace(R.id.contenedorMaster, mifragmento);
         mitransacion.addToBackStack("");
         mitransacion.commit();

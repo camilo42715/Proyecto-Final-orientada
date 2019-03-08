@@ -11,10 +11,10 @@ import android.view.ViewGroup;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class fragmentoAsiatico extends Fragment {
+public class asiaticosedan extends Fragment {
 
 
-    public fragmentoAsiatico() {
+    public asiaticosedan() {
         // Required empty public constructor
     }
 
@@ -23,7 +23,7 @@ public class fragmentoAsiatico extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_fragmento_asiatico, container, false);
+        return inflater.inflate(R.layout.fragment_asiaticosedan, container, false);
     }
 
 }

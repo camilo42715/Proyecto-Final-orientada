@@ -43,7 +43,7 @@
             android:layout_width="110dp"
             android:layout_height="37dp"
             android:layout_marginTop="23dp"
-            android:onClick="asiatico"
+            android:onClick="asiaticosedan"
             android:text="Asiatico"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.51"
