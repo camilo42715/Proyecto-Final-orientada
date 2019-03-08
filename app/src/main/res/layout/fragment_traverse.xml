@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".traverse">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView45"
+            android:layout_width="300dp"
+            android:layout_height="297dp"
+            android:layout_marginTop="30dp"
+            android:text="Esta camioneta tiene un diseño exterior e interior de vanguardia. También cuenta con la tecnología de sus aditamentos: apertura automática de baúl con sensor y calefacción en los asientos, toda la potencia de su poderoso motor 3.6 L V6 de 310 HP y 361 Nm de torque, además de la seguridad de sus más de diez ayudas tecnológicas que la convierten en la mejor anfitriona. Todo su diseño exterior se moldeó para cautivar a primera vista: un exterior renovado con líneas y formas más agresivas y seductoras que se combinan a la perfección con sus luces delanteras, traseras de led y antiniebla, y rines de aluminio de 20”. Con la Chevrolet Traverse es fácil enamorar y enamorarse"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Valor: 134.990.000"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView45" />
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

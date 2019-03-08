@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".explorer">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView53"
+            android:layout_width="306dp"
+            android:layout_height="287dp"
+            android:layout_marginTop="36dp"
+            android:text="Lo primero que verás en el Explorer es su dinámica parrilla y sus distintivas y exclusivas luces LED, delanteras y traseras. Ya sea que las aventuras te lleven por la carretera o por caminos todoterreno, el Explorer tiene una presencia que demanda atención,  El Explorer incluye Terrain Management System™ con el Sistema 4WD Inteligente, que te permite hacer el cambio rápido a una de las cuatro configuraciones según el terreno. Así que ya sea que tu viaje te haga atravesar barro, arena, gravilla, pasto o nieve, podrás hacerlo y continuar con confianza y control, cuenta con un motor  potente motor EcoBoost® de 2.3L genera 280 HP y 310 lb-pie de torsión. Está disponible con 4WD y Paquete de Remolque de Trailer Clase II"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView54"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:text="Valor:164.990.000"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView53" />
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

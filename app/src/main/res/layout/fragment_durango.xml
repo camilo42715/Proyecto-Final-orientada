@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".durango">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="288dp"
+            android:layout_height="320dp"
+            android:layout_marginStart="51dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="45dp"
+            android:text="El motor delantero y el eje de transmisión trasero contribuyen a una distribución de peso casi perfecta de 50/50 (modelos RWD). Al acelerar, el peso se distribuye hacia el eje de tracción para incrementar la fuerza descendente y mejorar la tracción. Esta se presenta para el año 2019 en versión única, la R/T, con motor HEMI, caja de 8 velocidades y el máximo nivel de equipamiento interior posible. Sobrepasa las expectativas tanto en rendimiento mecánico como en refinamiento interior, siendo sin lugar a dudas toda una contendiente para este segmento tan complicado en Norteamerica."
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="72dp"
+            android:text="Valor: 143.990.000"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView39" />
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vitara">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView57"
+            android:layout_width="287dp"
+            android:layout_height="353dp"
+            android:layout_marginTop="16dp"
+            android:text="el primero es un 1.6 VVT atmosférico que ofrece 120 caballos de potencia y 156 Nm de par. El segundo, el cual comparte con el Suzuki Swift Sport, es un 1.4 BoosterJet turbo que es capaz de desarrollar 140 caballos y 220 Nm de par. Ambos cuentan con 4 cilindros. Todos los motores, dependiendo de su nivel de equipamiento, cuentan con tracción total. Por otro lado, únicamente el 1.6 VVT y el 1.4 cuentan con transmisión automática. Los demás se conforman con una caja de cambios manual de 5 o 6 velocidades dependiendo del acabado."
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView58"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_marginTop="20dp"
+            android:text="Valor: 59.990.000"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView57" />
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".jimmy">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView59"
+            android:layout_width="310dp"
+            android:layout_height="307dp"
+            android:layout_marginTop="16dp"
+            android:text="sólo está disponible con una sencilla motorización de gasolina 1.5 de 102 CV y 130 NM, un motor de la vieja escuela, de cuatro cilindros, atmosférico, muy robusto y preparado para un uso intensivo fuera del asfalto, donde el Suzuki Jimny se desenvuelve como pez en el agua. Se puede asociar a una transmisión manual de 5 velocidades o a una caja automática de 4 relaciones. se ha adaptado a las nuevas exigencias del mercado, equipando numerosos sistemas que hasta hace poco eran impensables en un Suzuki Jimny, como el climatizador automático, el control de crucero, el ordenador de abordo o el sistema multimedia con pantalla táctil."
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView60"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:text="Valor: 68.490.000"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView59" />
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

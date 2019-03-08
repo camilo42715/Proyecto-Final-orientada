@@ -19,7 +19,7 @@
             android:layout_marginStart="156dp"
             android:layout_marginEnd="140dp"
             android:layout_marginBottom="22dp"
-            android:onClick="fiates"
+            android:onClick="fiatsedan"
             android:text="fiat"
             app:layout_constraintBottom_toTopOf="@+id/imageView14"
             app:layout_constraintEnd_toEndOf="parent"

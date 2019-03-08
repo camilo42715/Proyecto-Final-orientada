@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".f150">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView51"
+            android:layout_width="311dp"
+            android:layout_height="301dp"
+            android:layout_marginTop="41dp"
+            android:text="Hay seis opciones de motores, naturalmente aspirados y turbo cargados, incluyendo el nuevo Power Stroke® V6 Turbodiésel 3.0L y el fabuloso EcoBoost 3.5L de alta potencia de la F-150 Raptor, hecha en Baja. La Tecnología de Encendido-Apagado Automático está en todos los motores. Y cinco de los seis motores tienen la transmisión automática de 10 velocidades exclusiva del segmento. Tiene un innovador Pro Trailer Backup Assist™ disponible, el escalón integrado en puerta trasera y el botón de apertura/cierre de puerta trasera, además de los escalones laterales desplegables. Está claro, que cuando de capacidad se trata, la competencia siempre se esfuerza por seguir al líder, la Ford F-150"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView52"
+            android:layout_width="259dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="22dp"
+            android:text="Valor: 172.990.000"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView51" />
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

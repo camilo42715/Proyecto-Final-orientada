@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dimax">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView47"
+            android:layout_width="295dp"
+            android:layout_height="323dp"
+            android:layout_marginTop="16dp"
+            android:text="sistema de doble bolsa de aire (airbag), así como unos frenos ABS, los cuales tienen integrado un sistema de EBD, para solucionar un defecto de la Chevrolet Rodeo, base de su idea. Tiene cuatro cilindros en línea con una alimentación de inyección directa con una caja de cambios manual de 5 velocidades una tracción cuatro por cuatro y una suspensión delantera independiente. En cuanto a seguridad cuenta con frenos delanteros de discos ventilados y traseros de tambo"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView48"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="41dp"
+            android:text="Valor: 114.729.734"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView47" />
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

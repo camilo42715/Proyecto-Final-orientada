@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".baleno">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView61"
+            android:layout_width="335dp"
+            android:layout_height="278dp"
+            android:layout_marginTop="47dp"
+            android:text="Actualmente únicamente cuenta con dos opciones de motorización, utilizando ambas gasolina como combustible. Por otro lado, dispone de una opción híbrida que permite matricular al modelo de Suzuki como híbrido, pudiendo aprovechar así las ventajas de este tipo de vehículos, se basa en dos propulsores gasolina diferentes. Por un lado, encontramos un motor de 1,2 litros de cuatro cilindros, y por el otro, un propulsor de 1,0 litros de tres cilindros. La gran diferencia entre ellos, a parte del número de cilindros, es que el primero es atmosférico, mientras que el segundo está sobrealimentado mediante un turbocompresor. en cuanto a seguridad Por otro lado, el acabado más equipado, el GLX, añade elementos como cámara trasera, pantalla táctil de 7 pulgadas, arranque sin llave, control de velocidad adaptativo, sistema de frenada RBS o asientos delanteros calefactables "
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView62"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="120dp"
+            android:text="Valor: 49.000.000"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView61"
+            app:layout_constraintVertical_bias="1.0" />
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

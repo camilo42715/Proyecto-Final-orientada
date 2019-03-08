@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".expidition">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView55"
+            android:layout_width="311dp"
+            android:layout_height="312dp"
+            android:layout_marginTop="52dp"
+            android:text="carro  de tamaño completo para todas las capacidades adicionales que te ofrece a ti y a tu familia. Capacidad cómoda para hasta ocho pasajeros. Transportar mucha carga cuando es necesario. Además, hace otras cosas que otros vehículos de pasajeros no pueden, cómo remolcar un bote o un tráiler que pesa hasta 9,300 libras cuando está equipado correctamente. Cuando se trata de ofrecer la capacidad que necesitas, el Ford Expedition es el SUV de tamaño completo que puede hacer todo.  el estilo del Ford Expedition transmite lo mejor de lo que un SUV de tamaño completo puede ofrecer: confort y capacidad destacados con una actitud superior."
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.506"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView56"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:text="Valor: 213.000.000"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView55" />
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

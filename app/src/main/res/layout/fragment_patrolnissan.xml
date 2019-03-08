@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".patrolnissan">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView63"
+            android:layout_width="314dp"
+            android:layout_height="325dp"
+            android:layout_marginTop="16dp"
+            android:text="El Nissan Patrol te ofrece un interior versátil y lujoso que deja atrás a la competencia. Los grandes cojines mejoran la comodidad en las tres filas, y el amplio espacio entre los asientos de la segunda fila tiene un parecido a un jet privado. Los asientos de la tercera fila ofrecen comodidad sin precedentes, con un mecanismo que te permite reclinarse y deslizarte a gusto. La flexibilidad interior crea un espacioso ambiente portaequipajes sin comprometer la comodidad. En cuanto a accesibilidad Con la llave inteligente Nissan puedes presionar un botón en la manija de la puerta o en la puerta trasera para desbloquearlas, con solo mantener las llaves en tu bolsillo o en la cartera"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView66"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Valor: 320.000.000"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView63" />
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>
