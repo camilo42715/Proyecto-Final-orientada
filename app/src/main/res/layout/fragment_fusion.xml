@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fusion">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="343dp"
+            android:layout_height="362dp"
+            android:layout_marginTop="33dp"
+            android:text="Este vehículo estrena el motor EcoBoost de 1.5 litros, cuya potencia aún no ha sido especificada, pero deberá rondar los 180 caballos. En la gama actual hay un EcoBoost de 2.0 litros, sin embargo, la marca todavía no habla de su presencia en ninguna versión del modelo 2019. La actualización se centra en el diseño de los parachoques delanteros y traseros, ahora de apariencia más agresiva y con desplantes deportivos.En cuanto a seguridad contamos con frenado automático de emergencia con detección de peatones, asistente de permanencia en el carril, monitoreo de punto ciego y asistente de luces altas automáticas. Todo esto de serie desde el modelo de acceso a la gama"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="54dp"
+            android:text="Valor: 105.990.00"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView21" />
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

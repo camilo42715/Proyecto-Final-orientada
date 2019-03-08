@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sail">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="343dp"
+            android:layout_height="311dp"
+            android:text="Con motor de 1.4 litros a gasolina de 4 cilindros y 16 válvulas DOHC, que le permite alcanzar una potencia máxima de 102 HP @ 6.000 RPM. Entre los elementos de confort encontramos elevavidrios eléctricos delanteros y espejos retrovisores externos eléctricos. cuenta con airbag para conductor y pasajero, frenos ABS + EBD y luces exploradoras delanteras"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="254dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="50dp"
+            android:text="Valor: 39.990.000"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView24" />
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

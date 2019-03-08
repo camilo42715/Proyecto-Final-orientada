@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".onix">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="329dp"
+            android:layout_height="359dp"
+            android:text="cuenta con Chevystar de última generación que brinda seguridad, comodidad y todo el entretenimiento de tu Smartphone en la pantalla táctil de tu vehículo, compatible con Android Auto y con la mayoría de los sistemas operativos para brindarte la mejor experiencia en conectividad sin soltar el volante, también cuenta con transmisión automática secuencial de 6 cambios adelante con 97 HP.  En cuanto a seguridad está Equipada con frenos ABS, airbag para conductor y pasajero, control de crucero (único en su segmento), cinturones de seguridad, seguro para niños y vidrios anti opresión "
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="33dp"
+            tools:layout_editor_absoluteY="4dp" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:layout_marginTop="32dp"
+            android:text="Valor:45.990.000"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView27" />
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

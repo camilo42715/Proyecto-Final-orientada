@@ -13,7 +13,7 @@ public class registrousuari extends AppCompatActivity {
     EditText campoid,camponombre,campotelefono;
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_concesionario_ud);
         campoid= (EditText)findViewById(R.id.editText);
         camponombre=(EditText)findViewById(R.id.editText2);
         campotelefono=(EditText)findViewById(R.id.editText3);

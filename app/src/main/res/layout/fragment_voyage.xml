@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".voyage">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="339dp"
+            android:layout_height="329dp"
+            android:layout_marginTop="16dp"
+            android:text='es mucho más moderno y equipado con materiales de primera calidad, uenta con el Radio "Composition Media" con una pantalla multifunción a color de 6,5" con función "AppConnect" (dispositivos Android y Apple) donde puedes acceder a las aplicaciones desarrolladas por el Grupo Volkswagen y además control por voz a través de tu Smartphone, cuenta con un eficiente motor de 4 cilindros en línea de 1.6 L, caracterizado por la tecnología Volkswagen High torque, lo que le permite actuar con gran agilidad y tener una aceleración eficiente debido a su relación torque cilindrada. Ofrece una potencia de 99 HP y un funcionamiento silencioso y confiable'
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.511"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="270dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginBottom="88dp"
+            android:text="Valor: 37.990.000 pesos colombianos "
+            android:textSize="21sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.377"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView31" />
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

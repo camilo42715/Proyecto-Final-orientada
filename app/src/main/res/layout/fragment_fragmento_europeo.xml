@@ -19,6 +19,7 @@
             android:layout_marginStart="156dp"
             android:layout_marginEnd="140dp"
             android:layout_marginBottom="22dp"
+            android:onClick="fiates"
             android:text="fiat"
             app:layout_constraintBottom_toTopOf="@+id/imageView14"
             app:layout_constraintEnd_toEndOf="parent"
@@ -30,12 +31,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="141dp"
+            android:layout_marginTop="8dp"
             android:layout_marginEnd="140dp"
+            android:onClick="voles"
             android:text="volkswagen"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="110dp" />
+            app:layout_constraintTop_toBottomOf="@+id/imageView12" />
 
         <Button
             android:id="@+id/botonMercedez"
@@ -44,6 +47,7 @@
             android:layout_marginStart="147dp"
             android:layout_marginEnd="149dp"
             android:layout_marginBottom="16dp"
+            android:onClick="mercedezes"
             android:text="mercedez"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

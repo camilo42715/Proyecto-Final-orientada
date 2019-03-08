@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".passat">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="329dp"
+            android:layout_height="358dp"
+            android:text="Todos los TDI son de 2.0 litros y se ofrecen en potencias de 120, 140 y 190 caballos, además de la versión biturbo de 240 caballos. Los gasolina son los 1.4 TSI de 125 y 150 caballos, así como el 1.8 TSI de 180 y el 2.0 TSI de 220 caballos, El Passat dispone de cajas de cambios manual de 6 velocidades y automáticas de doble embrague, DSG, de 7 velocidades. en cuanto a seguridad cuenta con  elementos como los faros LED direccionales, sensores de aparcamiento delanteros y traseros, control de crucero adaptativo o el asistente de cambio involuntario de carril distintos equipos multimedia"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="350dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="27dp"
+            android:layout_marginBottom="20dp"
+            android:text="Valor: 95.719.406 pesos colombianos"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView26" />
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

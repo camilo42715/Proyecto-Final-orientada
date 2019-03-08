@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".altok10">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="304dp"
+            android:layout_height="322dp"
+            android:layout_marginTop="32dp"
+            android:text="Con un motor de tres cilindros y 1.0 litros de inyección multipunto, 12 válvulas y doble de eje de levas en la culata, el Suzuki Alto K10 2019 entrega una potencia de hasta 67 caballos a las 6.000 rpm y torque de 90 Nm a las 3.500 vueltas. viene dotado con todo el equipamiento de un full equipo: vidrios eléctricos delanteros, aire acondicionado, dirección asistida eléctricamente, bloqueo central, exploradoras, radio original de fábrica que juega a la perfección con el diseño del tablero, entro otros"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="157dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="53dp"
+            android:layout_marginBottom="65dp"
+            android:text=" valor 31.990.000"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView8" />
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

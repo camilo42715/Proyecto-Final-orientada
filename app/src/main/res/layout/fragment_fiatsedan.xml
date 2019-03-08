@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".toyotasedan">
+    tools:context=".fiatsedan">
 
     <!-- TODO: Update blank fragment layout -->
 
@@ -12,29 +12,27 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <Button
-            android:id="@+id/button33"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="60dp"
-            android:layout_marginBottom="109dp"
-            android:onClick="corollas"
-            android:text="corolla"
-            app:layout_constraintBottom_toBottomOf="parent"
+        <ImageView
+            android:id="@+id/imageView67"
+            android:layout_width="305dp"
+            android:layout_height="239dp"
+            android:layout_marginTop="33dp"
+            android:src="@drawable/cronos"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView54" />
-
-        <ImageView
-            android:id="@+id/imageView54"
-            android:layout_width="303dp"
-            android:layout_height="170dp"
-            android:layout_marginTop="124dp"
-            android:src="@drawable/corola"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.506"
-            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button49"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="159dp"
+            android:text="cronos"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView67" />
     </android.support.constraint.ConstraintLayout>
 </FrameLayout>

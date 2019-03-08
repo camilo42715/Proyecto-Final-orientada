@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fiesta">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="348dp"
+            android:layout_height="282dp"
+            android:layout_marginTop="72dp"
+            android:text="El Ford Fiesta ofrece dos motores para adaptarse a tu estilo de manejo: el motor Ti-VCT I-4 1.6L sensible (estándar en el Fiesta S y SE) y el motor EcoBoost 1.6L turbocargado con inyección directa (estándar en ST). Todos los modelos tienen transmisión manual opcional. Para los que prefieren un automático, el Fiesta ofrece la transmisión automática PowerShift de seis velocidades con SelectShift, la tecnología de este auto es espectacular cuenta con asistente sensible activada por voz y fácil de usar. Descubre las rápidas reacciones del sistema a tus comandos de voz coloquiales. Experimenta la pantalla táctil con una impresionante respuesta, similar a la de un smartphone. También encontrarás una interfaz moderna y sencilla que te ayudará a conectarte y controlar tu smartphon"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.555"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="31dp"
+            android:layout_marginBottom="127dp"
+            android:text="Valor: 48.500.000"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView18"
+            app:layout_constraintVertical_bias="0.0" />
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

@@ -197,5 +197,156 @@ public class concesionarioUD extends AppCompatActivity {
         mitransacion.addToBackStack("");
         mitransacion.commit();
     }
-
+    public void celerios (View v){
+        FragmentManager miManejador=getSupportFragmentManager();
+        FragmentTransaction mitransacion=miManejador.beginTransaction();
+        celerio mifragmento=new celerio();
+        mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.addToBackStack("");
+        mitransacion.commit();
+    }
+    public void swift (View v){
+        FragmentManager miManejador=getSupportFragmentManager();
+        FragmentTransaction mitransacion=miManejador.beginTransaction();
+        swift mifragmento=new swift();
+        mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.addToBackStack("");
+        mitransacion.commit();
+    }
+    public void versas (View v){
+        FragmentManager miManejador=getSupportFragmentManager();
+        FragmentTransaction mitransacion=miManejador.beginTransaction();
+       versa mifragmento=new versa();
+        mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.addToBackStack("");
+        mitransacion.commit();
+    }
+    public void sentras (View v){
+        FragmentManager miManejador=getSupportFragmentManager();
+        FragmentTransaction mitransacion=miManejador.beginTransaction();
+        sentra mifragmento=new sentra();
+        mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.addToBackStack("");
+        mitransacion.commit();
+    }
+    public void notes (View v){
+        FragmentManager miManejador=getSupportFragmentManager();
+        FragmentTransaction mitransacion=miManejador.beginTransaction();
+        note mifragmento=new note();
+        mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.addToBackStack("");
+        mitransacion.commit();
+    }
+    public void corollas (View v){
+        FragmentManager miManejador=getSupportFragmentManager();
+        FragmentTransaction mitransacion=miManejador.beginTransaction();
+       corolla mifragmento=new corolla();
+        mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.addToBackStack("");
+        mitransacion.commit();
+    }
+    public void fiestas (View v){
+        FragmentManager miManejador=getSupportFragmentManager();
+        FragmentTransaction mitransacion=miManejador.beginTransaction();
+        fiesta mifragmento=new fiesta();
+        mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.addToBackStack("");
+        mitransacion.commit();
+    }
+    public void fusiones (View v){
+        FragmentManager miManejador=getSupportFragmentManager();
+        FragmentTransaction mitransacion=miManejador.beginTransaction();
+        fusion mifragmento=new fusion();
+        mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.addToBackStack("");
+        mitransacion.commit();
+    }
+    public void cruzes (View v){
+        FragmentManager miManejador=getSupportFragmentManager();
+        FragmentTransaction mitransacion=miManejador.beginTransaction();
+        cruze mifragmento=new cruze();
+        mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.addToBackStack("");
+        mitransacion.commit();
+    }
+    public void onixes (View v){
+        FragmentManager miManejador=getSupportFragmentManager();
+        FragmentTransaction mitransacion=miManejador.beginTransaction();
+        onix mifragmento=new onix();
+        mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.addToBackStack("");
+        mitransacion.commit();
+    }
+    public void  sailes (View v){
+        FragmentManager miManejador=getSupportFragmentManager();
+        FragmentTransaction mitransacion=miManejador.beginTransaction();
+        sail mifragmento=new sail();
+        mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.addToBackStack("");
+        mitransacion.commit();
+    }
+    public void  mercedezes (View v){
+        FragmentManager miManejador=getSupportFragmentManager();
+        FragmentTransaction mitransacion=miManejador.beginTransaction();
+        mercedezsedan mifragmento=new mercedezsedan();
+        mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.addToBackStack("");
+        mitransacion.commit();
+    }
+    public void  voles (View v){
+        FragmentManager miManejador=getSupportFragmentManager();
+        FragmentTransaction mitransacion=miManejador.beginTransaction();
+        volkswagensedan mifragmento=new volkswagensedan();
+        mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.addToBackStack("");
+        mitransacion.commit();
+    }
+    public void  voyages (View v){
+        FragmentManager miManejador=getSupportFragmentManager();
+        FragmentTransaction mitransacion=miManejador.beginTransaction();
+  voyage mifragmento=new voyage();
+        mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.addToBackStack("");
+        mitransacion.commit();
+    }
+    public void  jettas (View v){
+        FragmentManager miManejador=getSupportFragmentManager();
+        FragmentTransaction mitransacion=miManejador.beginTransaction();
+        jetta mifragmento=new jetta();
+        mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.addToBackStack("");
+        mitransacion.commit();
+    }
+    public void  passates (View v){
+        FragmentManager miManejador=getSupportFragmentManager();
+        FragmentTransaction mitransacion=miManejador.beginTransaction();
+        passat mifragmento=new passat();
+        mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.addToBackStack("");
+        mitransacion.commit();
+    }
+    public void  cc1 (View v){
+        FragmentManager miManejador=getSupportFragmentManager();
+        FragmentTransaction mitransacion=miManejador.beginTransaction();
+       mercedezcla mifragmento=new mercedezcla();
+        mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.addToBackStack("");
+        mitransacion.commit();
+    }
+    public void  ce1 (View v){
+        FragmentManager miManejador=getSupportFragmentManager();
+        FragmentTransaction mitransacion=miManejador.beginTransaction();
+        clasee1 mifragmento=new clasee1();
+        mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.addToBackStack("");
+        mitransacion.commit();
+    }
+    public void  cla (View v){
+        FragmentManager miManejador=getSupportFragmentManager();
+        FragmentTransaction mitransacion=miManejador.beginTransaction();
+        mercedezcla mifragmento=new mercedezcla();
+        mitransacion.replace(R.id.contenedorMaster, mifragmento);
+        mitransacion.addToBackStack("");
+        mitransacion.commit();
+    }
 }

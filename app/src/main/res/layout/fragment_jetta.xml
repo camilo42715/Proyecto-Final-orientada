@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".jetta">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="329dp"
+            android:layout_height="344dp"
+            android:layout_marginTop="21dp"
+            android:text="La gama de motores del Volkswagen Jetta se abre camino con el 1.2 TSI de 105 caballos, seguido de los 1.4 TSI en especificación de 125 y 150 caballos. La gama diésel se limita a dos 2.0 TDI con 110 y 150 caballos. El motor TSI de 150 caballos está asociado a un cambio DSG de 7 velocidades, opcional para el TDI de 110. El diésel más potente puede tener caja DSG, pero con seis relaciones. Anteriormente al restyling de 2015, existió una variante híbrida con motor 1.4 TSI que conseguía 170 caballos combinado"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="304dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginBottom="53dp"
+            android:text="Valor: 80.620.799 pesos colombianos. "
+            android:textSize="22sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView30" />
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".corolla">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="323dp"
+            android:layout_height="307dp"
+            android:layout_marginTop="26dp"
+            android:text="Este vehiculo cuenta con 4 cilindros de 1.8 litros DOHC 16 válvulas con Regulación Variable Dual de Válvulas con Inteligencia (VVT-i) 139 hp a 6100 rpm; 126 lb-pie a 3900 rpm y una Transmisión Continuamente Variable con inteligencia y Shift Mode (CVTi-S). En cuanto a seguridad la toyota corolla tiene Frenos delanteros de disco ventilado de 10.8 plg asistidos eléctricamente; frenos traseros de disco sólidos de 10.2 plg con Sistema de Frenado Controlado Electrónicamente (ECB) y Star Safety System."
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.508"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="29dp"
+            android:layout_marginBottom="108dp"
+            android:text="Valor: 74.400.000"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

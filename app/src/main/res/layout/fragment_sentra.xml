@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sentra">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="320dp"
+            android:layout_height="352dp"
+            android:layout_marginTop="16dp"
+            android:text="este vehículo cuenta con Un frente más agresivo trazado por rasgos fuera de lo convencional, destacando la parrilla V-Motion cromada y los Signature Lamps en forma de boomerang con proyector LED. Finos materiales suaves al tacto y lujos inesperados llenan la cabina. Un acogedor interior tapizado en cuero. Acabado en color Piano Black y un volante forrado en piel, todo se combina para crear una experiencia rica y agradable al tacto,cuenta con Cámara de Reversa*, ofreciéndote visión de aquello detrás del vehículo y haciendo sencillas las maniobras al estacionar"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginBottom="77dp"
+            android:text="Valor: 56.990.000"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

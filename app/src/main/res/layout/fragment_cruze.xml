@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cruze">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="297dp"
+            android:layout_height="341dp"
+            android:layout_marginTop="39dp"
+            android:text='cuenta con un motor 1.4L Turbo EcoTec con 153 hp y 240 Nm de torque, caja automatica de 6 velocidades secuencial Hydra-matic, dirección asistida EPS, ABS con distribución electrónica de frenado, sistema de alarma anti-robo y transmisión manual de 6 velocidades, en cuanto a seguridad cuenta con  airbags delanteros y laterales en asientos delanteros. En su exterior, está equipado con encendido automático de luces, llantas de aluminio de 16" y faros delanteros halógeno'
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="262dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="25dp"
+            android:text="Valor: 65.990.000"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView20" />
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>
